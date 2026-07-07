@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guilherme Oliveira | Portfólio Dev</title>
+    <!-- Tailwind CSS para um design moderno e rápido -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-slate-900 text-slate-100 font-sans">
+
+    <!-- HEADER / NAV -->
+    <header class="border-b border-slate-800 sticky top-0 bg-slate-900/90 backdrop-blur z-50">
+        <div class="max-w-5xl mx-auto px-4 py-4 flex justify-between items-center">
+            <span class="text-xl font-bold bg-gradient-to-r from-blue-400 to-teal-400 bg-clip-text text-transparent">
+                &lt;Guilherme.Dev /&gt;
+            </span>
+            <div class="space-x-6 text-sm font-medium text-slate-400">
+                <a href="#sobre" class="hover:text-blue-400 transition">Sobre</a>
+                <a href="#projetos" class="hover:text-blue-400 transition">Projetos</a>
+                <a href="#contato" class="hover:text-blue-400 transition">Contato</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="max-w-5xl mx-auto px-4 py-20 text-center md:text-left md:flex items-center justify-between">
+        <div class="max-w-2xl">
+            <h1 class="text-4xl md:text-5xl font-extrabold tracking-tight">
+                Olá, eu sou o <span class="text-blue-400">Guilherme Oliveira</span>.
+            </h1>
+            <p class="mt-4 text-lg text-slate-400 leading-relaxed">
+                Desenvolvedor de Software graduado em ADS. Especializado no ecossistema Python (Django) e PHP, criando aplicações web completas, seguras e focadas na experiência do usuário.
+            </p>
+            <div class="mt-8 flex flex-wrap gap-4 justify-center md:justify-start">
+                <a href="#projetos" class="bg-blue-600 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-lg transition shadow-lg shadow-blue-600/20">
+                    Ver Projetos
+                </a>
+                <a href="mailto:Guilhermeosvaldino@hotmail.com" class="bg-slate-800 hover:bg-slate-700 text-slate-200 font-medium px-6 py-3 rounded-lg transition">
+                    Entrar em Contato
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="bg-slate-850 py-16 border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4">
+            <h2 class="text-2xl font-bold border-b-2 border-blue-500 w-fit pb-1 mb-6">Sobre Mim</h2>
+            <p class="text-slate-300 leading-relaxed max-w-3xl">
+                Sou tecnólogo em Análise e Desenvolvimento de Sistemas. Minha trajetória técnica envolve a construção de sistemas ponta a ponta (Full Stack), modelagem de banco de dados e deploy em nuvem. Além da bagagem técnica, minha experiência como barbeiro autônomo me deu uma visão comercial apurada, excelente comunicação com o cliente e facilidade para trabalhar sob metas e liderar processos.
+            </p>
+        </div>
+    </section>
+
+    <!-- PROJETOS -->
+    <section id="projetos" class="max-w-5xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-bold border-b-2 border-blue-500 w-fit pb-1 mb-10">Meus Projetos em Destaque</h2>
+        
+        <div class="grid md:grid-cols-2 gap-6">
+            
+            <!-- Projeto 1: TCC -->
+            <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 flex flex-col justify-between hover:border-blue-500/50 transition">
+                <div>
+                    <div class="flex justify-between items-start mb-4">
+                        <h3 class="text-xl font-bold text-white">Monitoramento Glicêmico</h3>
+                        <span class="bg-blue-500/10 text-blue-400 text-xs px-2 py-1 rounded border border-blue-500/20">Destaque (TCC)</span>
+                    </div>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Aplicação web focada em saúde digital para registro de medições glicêmicas e cálculo preditivo automatizado de HbA1c. Possui autenticação e isolamento seguro de dados.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">Python</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">Django</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">PostgreSQL</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">Render</span>
+                    </div>
+                </div>
+                <div class="flex gap-4">
+                    <a href="https://medidor-glicemia.onrender.com/" target="_blank" class="text-sm font-semibold text-blue-400 hover:underline">Ver Online →</a>
+                    <a href="https://github.com/Guiihosvaldino" target="_blank" class="text-sm font-semibold text-slate-400 hover:text-white transition">Código Fonte</a>
+                </div>
+            </div>
+
+            <!-- Projeto 2: Financeiro.NET -->
+            <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 flex flex-col justify-between hover:border-blue-500/50 transition">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Financeiro.NET</h3>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Aplicação Desktop desenvolvida para controle financeiro, com módulos estruturados para registro de despesas, categorização de receitas e gerenciamento de fluxo de caixa corporativo ou pessoal.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">Visual Basic .NET</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">SQL Server</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">Windows Forms</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">ADO.NET</span>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://github.com/Guiihosvaldino/Financeiro.NET" target="_blank" class="text-sm font-semibold text-blue-400 hover:underline">Repositório no GitHub →</a>
+                </div>
+            </div>
+
+            <!-- Projeto 3: Barbearia -->
+            <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 flex flex-col justify-between hover:border-blue-500/50 transition">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">Agendamento para Barbearia</h3>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Sistema focado na automação de agendamentos de serviços de estética, otimizando o fluxo de atendimento e tempo do profissional.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">PHP</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">MySQL</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">HTML5/CSS3</span>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://github.com/Guiihosvaldino" target="_blank" class="text-sm font-semibold text-blue-400 hover:underline">Repositório no GitHub →</a>
+                </div>
+            </div>
+
+            <!-- Projeto 4: Mobile -->
+            <div class="bg-slate-800 rounded-xl p-6 border border-slate-700/50 flex flex-col justify-between hover:border-blue-500/50 transition">
+                <div>
+                    <h3 class="text-xl font-bold text-white mb-2">App Mobile de Autenticação</h3>
+                    <p class="text-sm text-slate-400 mb-4">
+                        Aplicativo móvel multiplataforma focado em segurança de acesso de usuários, controle de permissões e banco de dados NoSQL em tempo real.
+                    </p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">React Native</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">JavaScript</span>
+                        <span class="text-xs bg-slate-900 px-2 py-1 rounded text-slate-300">Firebase</span>
+                    </div>
+                </div>
+                <div>
+                    <a href="https://github.com/Guiihosvaldino" target="_blank" class="text-sm font-semibold text-blue-400 hover:underline">Repositório no GitHub →</a>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <footer id="contato" class="bg-slate-950 py-12 text-center text-slate-400 text-sm border-t border-slate-800">
+        <div class="max-w-5xl mx-auto px-4 space-y-4">
+            <p class="text-slate-200 font-medium">Vamos construir algo juntos?</p>
+            <div class="flex justify-center space-x-6 text-base">
+                <a href="mailto:Guilhermeosvaldino@hotmail.com" class="hover:text-blue-400 transition">E-mail</a>
+                <a href="https://linkedin.com/in/guilherme-oliveira-2110391a0" target="_blank" class="hover:text-blue-400 transition">LinkedIn</a>
+                <a href="https://github.com/Guiihosvaldino" target="_blank" class="hover:text-blue-400 transition">GitHub</a>
+            </div>
+            <p class="pt-4 text-xs text-slate-600">&copy; 2026 Guilherme Oliveira. Feito com HTML e Tailwind CSS.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
